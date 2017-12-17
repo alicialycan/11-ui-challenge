@@ -69,3 +69,28 @@ input[type="checkbox"]:not(:checked) + label {
 #input-pri:checked + label div {
   left: 50%;
 }
+#input-pri:checked + label {
+    background-position: -2.9vw -4.3vw; 
+}
+
+#input-pri:checked + label div {
+  left: 50%;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"] + label div {
+  background-size: 25vw;
+  height:3.5vw;
+  width: 3.5vw;
+  border-radius:50%;
+  background-image: url("../sprites/form-elements-sprite.png");
+  background-repeat: no-repeat;
+  background-position: -9.8vw -3.9vw; 
+    }
+
+input[type="radio"]:checked + label div {
+      background-position: -13.7vw -3.9vw; 
+}
