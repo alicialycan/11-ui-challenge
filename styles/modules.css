@@ -62,20 +62,14 @@ input[type="checkbox"]:not(:checked) + label {
   background-color: red;
 } */
 
-#input-pri:checked + label {
+#check1:checked + label {
     background-position: -2.9vw -4.3vw; 
 }
 
-#input-pri:checked + label div {
-  left: 50%;
-}
-#input-pri:checked + label {
+#check2:checked + label {
     background-position: -2.9vw -4.3vw; 
 }
 
-#input-pri:checked + label div {
-  left: 50%;
-}
 
 input[type="radio"] {
     display:none;
