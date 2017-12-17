@@ -1,6 +1,6 @@
 * {
   width: 100%;
-  /* display: block; */
+  display: block;
   border: 0;
   outline: 0;
   padding: 0;
@@ -19,11 +19,10 @@ form {
     margin: 10vw auto;
     width: 50vw;
     height: 90vw;
-    background: white;
+    background: lightblue;
     padding: 5vw;
-}
+    }
 label {
-
     font-family: sans-serif;
 }
 /* head, script, link {

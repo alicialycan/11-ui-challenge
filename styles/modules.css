@@ -1,38 +1,48 @@
 .form input{
   display: none;
 }
+.form select {
+  display:none;
+}
+.form option {
+  visibility:hidden;
+}
 
 form .labeltext {
-  width: 30vw;
-  height: 10vw;
-  border: 1px solid black;
+  width: 40vw;
+  height: 4vw;
+  border: 1px solid red;
   border-radius: 3px;
   display: block;
   transition: 350ms;
   position: relative;
 }
-form .labeltext {
-  width: 30vw;
-  height: 10vw;
-  border: 1px solid black;
-  border-radius: 3px;
-  display: block;
-  transition: 350ms;
-  position: relative;
-}
+
 form .labelselect {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
-  border-radius: 15px;
+  width: 40vw;
+  height: 4vw;
+  border: 1px solid blue;
+  border-radius: 3px;
   display: block;
   transition: 350ms;
   position: relative;
 }
-
-.labelcheck div {
+form .labelcheck {
+  background-size: 25vw;
+  background-repeat: no-repeat;
+  background-image: url("../sprites/form-elements-sprite.png");
+  background-position: 0px 0px;
+  width: 2.5vw;
+  height: 2.5vw;
   border: 1px solid grey;
-  background-color: white;
+  display: block;
+  transition: 0ms;
+  position: relative;
+}
+
+/*.labelcheck div {
+  border: 1px solid grey;
+ 
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -40,5 +50,22 @@ form .labelselect {
   top: 25%;
   left: 5%;
   transition: 350ms;
+}*/
+
+input[type="checkbox"]:not(:checked) + label {
+  background-position: -6.7vw -4.3vw; 
 }
 
+/* :placeholder-shown */
+
+/* #input-pri:not(:checked) ~ label {
+  background-color: red;
+} */
+
+#input-pri:checked + label {
+    background-position: -2.9vw -4.3vw; 
+}
+
+#input-pri:checked + label div {
+  left: 50%;
+}
