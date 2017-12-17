@@ -1,0 +1,35 @@
+form {
+    margin: 1vw auto;
+    width: 50vw;
+    height: 90vw;
+    background: white;
+    padding: 5vw;
+    }
+label {
+    font-family: sans-serif;
+   
+}
+form .labelcheck {
+    margin-top: 1vw;
+    display: inline-block;
+
+}
+form .labelradio {
+    display: inline-block;
+}
+
+.textwrapper {
+    display: block;
+    margin: 5vw auto;
+
+}
+.checkwrapper {
+    display: block;
+    margin: 5vw auto;
+    
+}
+.radwrapper {
+    display:block;
+    margin: 5vw auto;
+    
+}

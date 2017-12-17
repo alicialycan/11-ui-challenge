@@ -36,7 +36,7 @@ form .textbox {
   width: 40vw;
   height: 4vw;
   border-radius: 3px;
-  display: block;
+  display: inline-block;
   transition: 350ms;
   position: relative;
   padding-left: 1vw;
@@ -47,20 +47,16 @@ form .textbox:placeholder-shown {
 form .textbox:valid {
 border: 1px solid black;
 }
-form .textbox:invalid {
-  border: 1px solid red;
-}
 
 form .labelselect {
   width: 40vw;
   height: 4vw;
   border: 1px solid blue;
   border-radius: 3px;
-  display: block;
   transition: 350ms;
   position: relative;
 }
-select:not(:selected) + label {
+/*select:not(:selected) + label {
   display:block;
     
 }
@@ -69,7 +65,7 @@ select:selected + div {
   border: 1px solid black;
    width: 40vw;
   height: 4vw;
-}
+}*/
 form .labelcheck {
   background-size: 25vw;
   background-repeat: no-repeat;
@@ -78,7 +74,6 @@ form .labelcheck {
   width: 2.5vw;
   height: 2.5vw;
   border: 1px solid grey;
-  display: block;
   transition: 0ms;
   position: relative;
 }
