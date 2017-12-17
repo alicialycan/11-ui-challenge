@@ -4,20 +4,51 @@
 .form select {
   visibility: hidden;
 }
-input {
-  padding-left: 1vw;
-}
-input:placeholder-shown {
-  padding-left: 1vw;
-}
+submit {
+  width: 13vw;
+  height:3vw;
+  border: 1px solid black;
+  padding-top: calc(3vw/3);
+  text-align: center;
+  background-color: grey;
+  cursor: default;
+  }
+  submit:hover {
+  width: 13vw;
+  height:3vw;
+  border: 1px solid black;
+  padding-top: calc(3vw/3);
+  text-align: center;
+  background-color: black;
+  color: white;
+  }
+  submit:active {
+  width: 13vw;
+  height:3vw;
+  border: 1px solid black;
+  padding-top: calc(3vw/3);
+  text-align: center;
+  background-color: black;
+  color: white;
+  }
+
 form .textbox {
   width: 40vw;
   height: 4vw;
-  border: 1px solid black;
   border-radius: 3px;
   display: block;
   transition: 350ms;
   position: relative;
+  padding-left: 1vw;
+}
+form .textbox:placeholder-shown {
+  padding-left: 1vw;
+}
+form .textbox:valid {
+border: 1px solid black;
+}
+form .textbox:invalid {
+  border: 1px solid red;
 }
 
 form .labelselect {
