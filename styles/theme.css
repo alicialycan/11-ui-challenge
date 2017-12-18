@@ -5,14 +5,21 @@ body {
     font-size: 2vw;
     letter-spacing: .15vw;
     font-weight: bold;
+    color: #4a4a4a;
 }
 input {
-    color: black;
+    color:#4a4a4a;
     font-size: 2vw;
     letter-spacing: .1vw;
 }
 input:placeholder-shown {
-  color: grey;
+  color: #d8d8d8;
   font-size: 2vw;
   letter-spacing: .1vw;
+}
+.requirements {
+    color: #d20e26;
+    font-size: 1vw;
+    letter-spacing: .1vw;
+    
 }
