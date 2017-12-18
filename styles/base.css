@@ -18,11 +18,12 @@ body {
     margin: 0 auto;
     background: white;
 }
-form ~div{
+form ~ div{
     display: inline-block;
 }
 input {
     display: inline-block;
 }
+
 
 

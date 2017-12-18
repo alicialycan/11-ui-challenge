@@ -20,10 +20,12 @@ form .labeltextbox {
 form .labelcheck {
     margin-top: 1vw;
     display: inline-block;
+    margin-left: .75vw;
 
 }
 form .labelradio {
     display: inline-block;
+    width: 3vw;
 }
 
 .textwrapper {

@@ -1,9 +1,11 @@
-.form input[type="checkbox"], input[type="radio"] {
+/*~~~~~~radio and check box set up ~~~~~~~*/
+.form input[type="checkbox"] {
   display: none;
 }
-.form select {
-  visibility: hidden;
+.form input[type="radio"] {
+  display: none;
 }
+/*~~~~text box set up ~~*/
  .requirements {
    width: 40vw;
    visibility: hidden;
@@ -20,6 +22,9 @@ background-color: transparent;
 .textboxlabel {
   position: absolute;
 }
+
+/*~~~~~~~~~~~~~~TEXT BOX~~~~~~~~~~~~~*/
+
 .textbox + label {
   width: 40vw;
   height: 4vw;
@@ -47,34 +52,8 @@ input[type="text"]:invalid + label {
   border: .5px solid #d20e26;
 }
 
-/*form .labeltextbox:hover {
-  border:2px solid black;
-}
-form .textbox:placeholder-shown {
+/*~~~~~~~~~~~~~~CHECKBOX~~~~~~~~~~~~~*/
 
-}
-form .labeltextbox:valid {
-border: 1px solid black;
-}*/
-
-form .labelselect {
-  width: 40vw;
-  height: 4vw;
-  border: .5px solid blue;
-  border-radius: 3px;
-  transition: 350ms;
-  position: relative;
-}
-/*select:not(:selected) + label {
-  display:block;
-    
-}
-select:selected + div {
-  display:block;
-  border: 1px solid black;
-   width: 40vw;
-  height: 4vw;
-}*/
 form .labelcheck {
   background-size: 25vw;
   background-repeat: no-repeat;
@@ -91,7 +70,6 @@ input[type="checkbox"]:not(:checked) + label {
   background-position: -6.7vw -4.3vw; 
 }
 
-/* :placeholder-shown */
 
 #check1:checked + label {
     background-position: -2.9vw -4.3vw; 
@@ -101,12 +79,14 @@ input[type="checkbox"]:not(:checked) + label {
     background-position: -2.9vw -4.3vw; 
 }
 
+/*~~~~~~~~~~~~~~RADIO~~~~~~~~~~~~~*/
 
 input[type="radio"] {
     display:none;
 }
 
-input[type="radio"] + label div {
+.labelradio div {
+  display: inline-block;
   background-size: 25vw;
   height:2.5vw;
   width: 2.5vw;
@@ -122,6 +102,7 @@ input[type="radio"]:checked + label div {
       background-position: -14.2vw -4.29vw; 
 }
 
+/*~~~~~~~~~~~~~~SUBMIT~~~~~~~~~~~~~*/
 submit {
   width: 13vw;
   height:3vw;
