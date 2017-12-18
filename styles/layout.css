@@ -43,3 +43,7 @@ form .labelradio {
     margin: 5vw auto;
     
 }
+.labeltitle {
+   border-bottom: 2px solid grey;
+   display: inline;
+}
