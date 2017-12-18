@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/modules.css">
+    <link rel="stylesheet" href="styles/theme.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form">
+      
+        <label>inputs</label>
+        <div class="textwrapper">
+        <label>text input</label>
+        <div class="textboxdiv">
+        <input class="textbox" type="text" id ="textbox1" placeholder="place holder" pattern="[a-zA-Z0-9]{3,8}" required  />
+        <label class ="labeltextbox" for = "textbox1">
+          
+    </label>
+    <label class="requirements" for="textbox1">
+        please enter a valid user name.
+    </label>
+       
+        </div>
+        </div>
+        <!--<label>select box</label>
+            <select id = "selectbox">
+            <option value="1"><div></div></option>
+            <option value="2">option 2</option>
+            <option value="3">option 3</option>
+            <option value="4">option 4</option>
+            <option value="5">option 5</option>
+            </select>
+        <label class="labelselect" for "selectbox">
+         </label>-->
+
+        <div class="checkwrapper">
+        <label>check box</label>
+        <input type="checkbox" id="check1" value="1"></input>
+        <label class="labelcheck" for="check1">
+            <div></div>
+        </label>
+        <input type="checkbox" id="check2" value="2"></input>
+        <label class="labelcheck" for="check2">
+            <div></div>
+        </label>
+            </div>
+            <div class ="radwrapper">
+        <label>radio button</label>
+        <input type="radio" name="radio-style" id ="rad1" value="1"/>
+        <label class="labelradio" for="rad1">
+            <div></div>
+        </label>
+        <input type="radio" name="radio-style" id ="rad2" value="2"/>
+        <label class="labelradio" for="rad2">
+            <div></div>
+        </label>
+        </div>
+        <div class ="buttonwrapper">
+        <submit>submit</submit>
+        </div>
+    </form>
+       
+</body>
+</html>
